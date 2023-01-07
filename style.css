@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@300;400;500;600;700;800&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+/* multipul class section start */
+.container{
+    max-width: 1200px;
+    height: 100%;
+    margin: 0 auto;
+}
+.btn{
+    padding: 22px 30px;
+    border-radius: 5px;
+    color: #005FAC;
+    font-weight: 600;
+font-size: 20px;
+}
+/* multipul class section end */
+
+
+/* header style start */
+header{
+    width: 100%;
+    height: 100vh;
+    background: url('images/banner/banner3.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.header_content{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    padding-top: 200px;
+}
+
+.header_content h1{
+    text-align: right;
+    font-size: 65px;
+    font-weight: 700;
+    color: 
+    #FFFFFF;
+}
+.header_content p{
+    text-align: right;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin: 24px 0;
+}
+.btn{
+    border: none;
+   font-weight: 600;
+    font-size: 20px;
+
+}
+/* header style end */
+
+
+/* hero section :start */
+.hero{
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+}
+.hero_content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+.hero_desc{
+    padding: 50px;
+    line-height: 26px;
+}
+.hero_desc h2{
+    font-size: 40px;
+    font-weight: 700;
+    color: #151414;
+    line-height: 50px;
+}
+.hero_desc p{
+    margin: 15px 0;
+    color: #151414;
+}
+.hero_desc li{
+    list-style: none;
+}
+.hero_desc li span{
+    margin-right: 15px;
+    color: #16D887;
+    font-size: 20px;
+}
+/* hero section :end */
+
+
+/* my plans section start */
+.plan_title{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 50px 0;
+    color: #151414;
+}
+.plans_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.plan_item{
+    text-align: center;
+}
+.plan_item h2{
+    font-size: 30px;
+    font-weight: 700;
+    color: #151414;
+    margin: 16px 0;
+}
+.plan_item h3{
+    font-size: 25px;
+    font-weight: 500;
+    color: #737272;
+    margin: 16px 0;
+}
+/* my plans section end */
+
+/* call secton start */
+.call_section{
+    margin: 100px 0;
+}
+.call_container{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(90deg, #005FAC 0%, rgba(0, 95, 172, 0) 100%),url('images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    padding: 55px;
+}
+.call_container h1{
+    font-weight: 700;
+    font-size: 40px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+/* call secton end */
+
+/* extran section start */
+.extran_section{
+    margin-bottom: 100px;
+}
+.extran_section h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin: 50px 0;
+    color: #151414;
+}
+.extran_content{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+.extran_item{
+    width: 25%;
+    padding: 5px;
+    border: 0.1px solid silver;
+    border-radius: 5px;
+    box-shadow: 2px 5px 2px 1px rgba(0, 0, 0, 0.2);
+}
+.extran_item img{
+    width: 100%;
+    height: 300px;
+    padding: 5px;
+    border-radius: 10px ;
+}
+.extran_item h4{
+    font-size: 26px;
+    font-weight: 600;
+    color: #3b3737;
+    margin: 5px 0;
+}
+.extran_item p{
+    font-size: 18px;
+    color:  #151414;
+}
+/* extran section end */
+
+/* footer secton :start */
+footer{
+    background-color: #151414;
+    color: #FFFFFF;
+    padding: 120px 0;
+}
+.footer_content{
+    display: flex;
+    gap: 400px;
+
+}
+.left h2{
+    font-weight: 700;
+    font-size: 45px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin-bottom: 10px;
+}
+.left img{
+    margin-right:20px;
+}
+.rigth h3{
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.rigth input{
+    padding: 20px;
+    background-color: transparent;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    width: 100%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.btn_sub{
+    background-color: #005FAC;
+    color: #FFFFFF;
+}
+/* footer secton :end */
